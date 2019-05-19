@@ -1,0 +1,12 @@
+myconfig.myconfig_admin_settings_form:
+  title: 'Sample Configuration Form'
+  route_name: myconfig.myconfig_admin_settings_form
+  description: 'Configure MySite'
+  parent: system.admin_config_myconfig
+  weight: 99
+system.admin_config_myconfig:
+  title: 'Mysite'
+  route_name: system.admin_config_myconfig
+  parent: system.admin_config
+  description: 'Myconfig Configuration'
+  weight: -999
